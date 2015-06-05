@@ -1,0 +1,516 @@
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream="1" header ="1"><item><name>Apple</name><count>10</count></item><item><name>Carrot</name><count>30</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Apple :: count :: 10
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Carrot :: count :: 30
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 1
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Valid Stream Id and Header ID for order :: 1
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Apple Count :: 10
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Carrot Count :: 30
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is Valid. Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Apple Available Count :: 150 itemCount :: 10
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Apple with count :: 10
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Apple is :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Apple is :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Carrot Available Count :: 100 itemCount :: 30
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Carrot with count :: 30
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Carrot is :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Carrot is :: 70
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 70
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header ="2"><item><name>Banana</name><count>5</count></item><item><name>Carrot</name><count>20</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Banana :: count :: 5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Carrot :: count :: 20
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 2
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Valid Stream Id and Header ID for order :: 2
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Banana Count :: 5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Carrot Count :: 20
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is Valid. Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Banana Available Count :: 150 itemCount :: 5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Banana with count :: 5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Banana is :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Banana is :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Carrot Available Count :: 70 itemCount :: 20
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Carrot with count :: 20
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Carrot is :: 70
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Carrot is :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header ="3"><item><name>Donut</name><count>60</count></item><item><name>Egg</name><count>100</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Donut :: count :: 60
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Egg :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 3
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Valid Stream Id and Header ID for order :: 3
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Donut Count :: 60
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Egg Count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is Valid. Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Donut Available Count :: 100 itemCount :: 60
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Donut with count :: 60
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Donut is :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Donut is :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Egg Available Count :: 200 itemCount :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Egg with count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Egg is :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Egg is :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header ="4"><item><name>Apple</name><count>150</count></item><item><name>Banana</name><count>150</count></item><item><name>Carrot</name><count>100</count></item><item><name>Donut</name><count>100</count></item><item><name>Egg</name><count>200</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Apple :: count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Banana :: count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 2 :: name :: Carrot :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 3 :: name :: Donut :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 4 :: name :: Egg :: count :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 4
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Valid Stream Id and Header ID for order :: 4
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Apple Count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Banana Count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Carrot Count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Donut Count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Egg Count :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is Valid. Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Apple Available Count :: 140 itemCount :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Banana Available Count :: 145 itemCount :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Carrot Available Count :: 50 itemCount :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Donut Available Count :: 40 itemCount :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Egg Available Count :: 100 itemCount :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header ="5"><item><name>Apple</name><count>150</count></item><item><name>Banana</name><count>150</count></item><item><name>Carrot</name><count>100</count></item><item><name>Donut</name><count>100</count></item><item><name>Egg</name><count>200</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Apple :: count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Banana :: count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 2 :: name :: Carrot :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 3 :: name :: Donut :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 4 :: name :: Egg :: count :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Valid Stream Id and Header ID for order :: 5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Apple Count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Banana Count :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Carrot Count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Donut Count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Egg Count :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is Valid. Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Apple Available Count :: 140 itemCount :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Banana Available Count :: 145 itemCount :: 150
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Carrot Available Count :: 50 itemCount :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Donut Available Count :: 40 itemCount :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: BackOrdered OrderItem :: Egg Available Count :: 100 itemCount :: 200
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header ="6"><item><name>Donut</name><count>101</count></item><item><name>Egg</name><count>100</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Donut :: count :: 101
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Egg :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 6
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Valid Stream Id and Header ID for order :: 6
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Donut Count :: 101
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Given count for item :: Donut is :: 101. Maximum Count can only be :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Item name or count is/are not valid
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Egg Count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is InValid. Not Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header =""><item><name>Donut</name><count>100</count></item><item><name>Egg</name><count>100</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Donut :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Egg :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 7
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Null or Empty Header ID
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is InValid. Not Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header ="8"><item><name>Apple</name><count>140</count></item><item><name>Banana</name><count>145</count></item><item><name>Carrot</name><count>50</count></item><item><name>Donut</name><count>40</count></item><item><name>Egg</name><count>100</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Inventory is not empty! Processing the received Order Request
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 0 :: name :: Apple :: count :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 1 :: name :: Banana :: count :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 2 :: name :: Carrot :: count :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 3 :: name :: Donut :: count :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: handleItemList :: Items Details :: 4 :: name :: Egg :: count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: isOrderValid :: Checking if the order is valid :: Order ID :: 8
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Validating Order Header and Stream IDs
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Valid Stream Id and Header ID for order :: 8
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Apple Count :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Banana Count :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Carrot Count :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Donut Count :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: checkifItemIsValid :: Name :: Egg Count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Order Request :: processOrder :: Order is Valid. Processing further.
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Apple Available Count :: 140 itemCount :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Apple with count :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Apple is :: 140
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Apple is :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Banana Available Count :: 145 itemCount :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Banana with count :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Banana is :: 145
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Banana is :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Carrot Available Count :: 50 itemCount :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Carrot with count :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Carrot is :: 50
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Carrot is :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Donut Available Count :: 40 itemCount :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Donut with count :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Donut is :: 40
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Donut is :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: OrderRequest :: processOrderItems :: Processed OrderItem :: Egg Available Count :: 100 itemCount :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Updating Inventory for the item :: Egg with count :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Current availability in inventory for item :: Egg is :: 100
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: After updating, Current availability in inventory for item :: Egg is :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: InventoryManagement :: printInventorySnapShot :: Items in Inventory ::5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Apple :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Banana :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Carrot :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Donut :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Egg :: 0
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: handleRequest :: Checking on the request :: <order stream ="1" header =""><item><name>Donut</name><count>100</count></item><item><name>Egg</name><count>100</count></item></order>
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Checking if Inventory is empty
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: All items out of stock :: 5
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: WARNING! :: Inventory is EMPTY!
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Total Number of order handled so far :: 8
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Details for the order :: 1 ::10,0,30,0,0::10,0,30,0,0::0,0,0,0,0
+
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Details for the order :: 2 ::0,5,20,0,0::0,5,20,0,0::0,0,0,0,0
+
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Details for the order :: 3 ::0,0,0,60,100::0,0,0,60,100::0,0,0,0,0
+
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Details for the order :: 4 ::150,150,100,100,200::0,0,0,0,0::150,150,100,100,200
+
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Details for the order :: 5 ::150,150,100,100,200::0,0,0,0,0::150,150,100,100,200
+
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Skipping invalid order :: 6
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Skipping invalid order :: 7
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: Details for the order :: 8 ::140,145,50,40,100::140,145,50,40,100::0,0,0,0,0
+
+Jun 5, 2015 2:35:20 PM inventoryAllocator.LogMessages printMessage
+INFO: *******************************************************************************
